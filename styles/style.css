@@ -18,11 +18,10 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Raleway", sans-serif;
   max-width: 411px;
   margin: 0 auto;
   padding: 56px 34px;
-  display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
   background-color: #1f1d2b;
@@ -91,7 +90,6 @@ body {
 }
 
 .section {
-  display: -ms-grid;
   display: grid;
   grid-gap: 16px;
 }
@@ -109,14 +107,12 @@ body {
 }
 
 .cards {
-  display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
 }
 
 .card {
   padding: 1rem 1.2rem;
-  display: -ms-grid;
   display: grid;
   grid-gap: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -178,7 +174,6 @@ h2 {
   font-size: 15px;
   background-color: transparent;
 }
-
 .card__input:focus {
   outline: none;
 }
@@ -215,7 +210,6 @@ h2 {
   font-size: 14px;
   padding: 4px;
 }
-
 .card__actions__button:first-child {
   margin-right: 0.5rem;
 }
@@ -245,4 +239,3 @@ h2 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/*# sourceMappingURL=style.css.map */
